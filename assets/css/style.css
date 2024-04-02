@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    gap: 10px;
+    padding: 30px;
+}
+.nueva-tarea{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+input{
+    padding: 5px;
+}
+button{
+    background-color: green;
+    width: 30px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.tareas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: start;
+    gap: 100px;
+}
+.aux{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.listaTareas{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
